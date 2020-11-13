@@ -21,7 +21,7 @@ const setBodyBgColor = function() {
 }
 
 function onStartChangeBgColor() { 
-  if (buttonStartRef.disabled = true) {
+  if (buttonStartRef.disabled) {
     buttonStopRef.disabled = false;
   };
 
