@@ -21,17 +21,17 @@ const setBodyBgColor = function() {
 }
 
 function onStartChangeBgColor() { 
-  if (buttonStartRef.disabled) {
+  buttonStartRef.disabled = true;
     buttonStopRef.disabled = false;
-  };
+  
 
   timeoutId = setInterval(() => { setBodyBgColor(), 1000});
 }
 
 function onStopChangeBgColor() {
-  if (buttonStopRef.disabled = true) {
+     buttonStopRef.disabled = true;
      buttonStartRef.disabled = false;
-  };
+  
 
   clearInterval(timeoutId);
 }
