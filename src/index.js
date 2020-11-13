@@ -25,7 +25,7 @@ function onStartChangeBgColor() {
     buttonStopRef.disabled = false;
   
 
-  timeoutId = setInterval(() => { setBodyBgColor(), 1000});
+  timeoutId = setInterval(() => { setBodyBgColor() }, 1000);
 }
 
 function onStopChangeBgColor() {
